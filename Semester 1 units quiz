@@ -1,0 +1,26 @@
+// simple c program
+/*
+name: Brian masele
+reg: CT100/G/26224/25
+des: Semester 1 units
+*/
+
+#include <stdio.h>
+
+//main function
+int main(int age,char** argv){
+
+    printf("the following are the units:\n");
+    
+    printf("1. Essentials of accounting\n");
+    printf("2. Introduction to computer applications\n");
+    printf("3. Fundamentals of ICT\n");
+    printf("4. Communication skills\n");
+    printf("5. Mathematics for science\n");
+    printf("6. Introduction to programming and algorithms\n");
+    printf("7. Computer systems and organization\n");
+    printf("8. Analogue electronics\n");
+    
+    
+    return 0;
+}

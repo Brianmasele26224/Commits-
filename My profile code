@@ -1,0 +1,28 @@
+// simple c program
+/*
+name: Brian masele
+reg: CT100/G/26224/25
+des: My profile
+*/
+
+#include <stdio.h>
+
+//main function
+int main(int age,char** argv)
+{
+
+    int height;
+    printf("Enter your height: ");
+    scanf("%d",&height);
+    printf("Your height is %d \n", height);
+    int contact;
+    printf("Enter your phone number: ");
+    scanf("%s", contact);
+    printf("Your phone number is %s \n", contact);
+    int weight;
+    printf("Enter your weight: ");
+    scanf("%f", &weight);
+    printf("Your weight is %.2f \n", weight);
+
+    return 0;
+}
